@@ -3,6 +3,8 @@ html {
     background: url(background\ \(1\).jpg) bottom center;
     background-size: cover;
   }
+  
+  
   body,html {
     margin: 0;
     padding: 0;
@@ -50,4 +52,23 @@ html {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+    font-family: "Noto Music", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
+
+  .key:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem rgba(251, 11, 11, 0.5);
+  }
+    
+  .key.playing {
+    transform: scale(1.1);
+    border-color: rgb(251, 11, 11);
+    transition: transform 0.07s ease;
+}
+ 
+
+
+
+
